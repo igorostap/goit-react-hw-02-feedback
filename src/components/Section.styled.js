@@ -8,4 +8,4 @@ background-color: aqua;
 border: 1px solid black;
 border-radius: 5px;
 text-align: center
-`
+`;
