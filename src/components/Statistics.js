@@ -11,10 +11,10 @@ export default function Statistics({good,neutral,bad,total,positiveFeedbackPerc}
         </div>
     )
 }
-/* Statistics.propTypes = {
-  good: PropTypes.string,
-  neutral: PropTypes.string,
-  bad: PropTypes.string,
+ Statistics.propTypes = {
+  good: PropTypes.number,
+  neutral: PropTypes.number,
+  bad: PropTypes.number,
   total: PropTypes.func,
   positivePercentage: PropTypes.func
-} */
+} 
