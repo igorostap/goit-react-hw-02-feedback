@@ -9,11 +9,11 @@ export default function Statistics({
 }) {
   return (
     <div>
-      <p>{good}</p>
-      <p>{neutral}</p>
-      <p>{bad}</p>
-      <p>{total()}</p>
-      <p>{positiveFeedbackPerc()}%</p>
+      <p>Good: {good}</p>
+      <p>Neutral: {neutral}</p>
+      <p>Bad: {bad}</p>
+      <p>Total: {total()}</p>
+      <p>Positive feedback: {positiveFeedbackPerc()}%</p>
     </div>
   );
 }
